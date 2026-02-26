@@ -78,3 +78,4 @@ ADD CONSTRAINT pk_idCustomer PRIMARY KEY(idCustomer);
 ALTER TABLE Sale
 ADD CONSTRAINT fk_idCustomer FOREIGN KEY(idCustomer)
 REFERENCES Customer(idCustomer);
+
